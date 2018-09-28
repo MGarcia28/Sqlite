@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mgl.service.SqliteActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/hello_world"
+        android:textStyle="bold"
+        android:shadowColor="#6E6E6E"
+        android:shadowDx="3" android:shadowDy="2" android:shadowRadius="1.8"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnCalendario"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="45dp"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_cal" />
+
+    <Button
+        android:id="@+id/btnEfemerides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCalendario"
+        android:layout_alignBottom="@+id/btnCalendario"
+        android:layout_marginLeft="38dp"
+        android:layout_toRightOf="@+id/btnCalendario"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_efe" />
+
+</RelativeLayout>

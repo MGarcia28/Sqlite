@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sqlite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mgl.activityCal.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mgl.service.CalendarioActivity"
+            android:label="@string/title_activity_calendario" >
+        </activity>
+        <activity
+            android:name="com.mgl.activityCal.CalendarioActivity"
+            android:label="@string/title_activity_calendario" >
+        </activity>
+        <activity
+            android:name="com.mgl.activityCal.CalConsulActivity"
+            android:label="@string/title_activity_muestra" >
+        </activity>
+        <activity
+            android:name="com.mgl.activityCal.CalQueryActivity"
+            android:label="@string/title_activity_cal_elimina" >
+        </activity>
+        <activity
+            android:name="com.example.activityEfemeride.EQueryActivity"
+            android:label="@string/title_activity_equery" >
+        </activity>
+        <activity
+            android:name="com.example.activityEfemeride.EConsulActivity"
+            android:label="@string/title_activity_econsul" >
+        </activity>
+    </application>
+
+</manifest>

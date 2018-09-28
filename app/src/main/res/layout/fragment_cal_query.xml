@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.activityEfemeride.CalEliminaActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="FECHA"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtNumMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtNomMes"
+        android:layout_alignLeft="@+id/edtNomMes"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="NUMERO MES" />
+
+    <EditText
+        android:id="@+id/edtNomMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtDia"
+        android:layout_alignLeft="@+id/edtDia"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:hint="MES" />
+
+    <EditText
+        android:id="@+id/edtFondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtColor"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:hint="FONDO" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtFondo"
+        android:layout_alignLeft="@+id/edtFondo"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="DIA" />
+
+    <Button
+        android:id="@+id/btnGetCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnInserta"
+        android:layout_alignBottom="@+id/btnInserta"
+        android:layout_alignLeft="@+id/btnConsulta"
+        android:text="Calendario" />
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnInserta"
+        android:layout_alignRight="@+id/btnActualiza"
+        android:text="Limpiar" />
+
+    <Button
+        android:id="@+id/btnInserta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnElimina"
+        android:layout_toRightOf="@+id/btnGetCal"
+        android:text="Insertar" />
+
+    <Button
+        android:id="@+id/btnConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtColor"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/btnElimina"
+        android:text="Consulta" />
+
+    <Button
+        android:id="@+id/btnElimina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnConsulta"
+        android:layout_alignBottom="@+id/btnConsulta"
+        android:layout_centerHorizontal="true"
+        android:text="Elimina" />
+
+    <Button
+        android:id="@+id/btnActualiza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLimpiar"
+        android:layout_toRightOf="@+id/btnElimina"
+        android:text="Actualiza" />
+
+    <EditText
+        android:id="@+id/edtColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnConsulta"
+        android:layout_below="@+id/edtFondo"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="COLOR"
+        android:inputType="textCapCharacters" />
+<!-- 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtNomMes"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/edtNomMes" 
+        android:entries="@array/spinner1"/>
+ -->
+</RelativeLayout>

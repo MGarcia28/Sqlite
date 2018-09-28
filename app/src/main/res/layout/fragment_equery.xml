@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.activityEfemeride.EQueryActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="EFEMERIDES" />
+
+    <EditText
+        android:id="@+id/edtNumMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edtDia"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="NUMERO MES" />
+
+     <EditText
+         android:id="@+id/edtContenido"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/btnConsulta"
+         android:layout_alignParentLeft="true"
+         android:layout_alignRight="@+id/btnActualizar"
+         android:layout_below="@+id/edtDia"
+         android:layout_marginLeft="21dp"
+         android:ems="10"
+         android:hint="CONTENIDO" />
+
+    <EditText
+        android:id="@+id/edtDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtContenido"
+        android:layout_alignTop="@+id/spinnerE"
+        android:layout_marginTop="47dp"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="DIA" />
+
+    <Spinner
+        android:id="@+id/spinnerE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtNumMes"
+        android:layout_below="@+id/edtNumMes"
+        android:entries="@array/spinner1" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnInsertar"
+        android:layout_toRightOf="@+id/btnInsertar"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/btnConsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnInsertar"
+        android:layout_alignBottom="@+id/btnInsertar"
+        android:layout_alignLeft="@+id/btnGetEfe"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/btnGetEfe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnEliminar"
+        android:layout_alignBottom="@+id/btnEliminar"
+        android:layout_toLeftOf="@+id/textView2"
+        android:text="Efemerides" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:layout_toRightOf="@+id/btnGetEfe"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnLimpia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInsertar"
+        android:layout_toRightOf="@+id/btnEliminar"
+        android:text="Limpiar" />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEliminar"
+        android:layout_toRightOf="@+id/btnConsulta"
+        android:text="Insertar" />
+
+    <Button
+        android:id="@+id/btnXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnJson"
+        android:layout_alignBottom="@+id/btnJson"
+        android:layout_toRightOf="@+id/btnEliminar"
+        android:text="XML" />
+
+    <Button
+        android:id="@+id/btnJson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnEliminar"
+        android:layout_below="@+id/btnLimpia"
+        android:text="JSON" />
+
+</RelativeLayout>

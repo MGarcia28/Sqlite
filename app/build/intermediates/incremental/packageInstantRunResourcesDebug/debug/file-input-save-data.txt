@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Aug 27 23:12:10 CDT 2018
+1.base=C\:\\AndroidStudio\\Sqlite\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=xml_calendario.xml
+0.set=ASSET
+0.base=C\:\\AndroidStudio\\Sqlite\\app\\build\\intermediates\\assets\\debug
+1.path=xml_efemerides.xml

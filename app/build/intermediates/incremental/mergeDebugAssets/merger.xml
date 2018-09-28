@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\AndroidStudio\Sqlite\app\src\main\assets"><file name="xml_calendario.xml" path="C:\AndroidStudio\Sqlite\app\src\main\assets\xml_calendario.xml"/><file name="xml_efemerides.xml" path="C:\AndroidStudio\Sqlite\app\src\main\assets\xml_efemerides.xml"/></source><source path="C:\AndroidStudio\Sqlite\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\AndroidStudio\Sqlite\app\src\debug\assets"/></dataSet></merger>

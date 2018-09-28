@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\ee1c48057df8304e6727de409fc896cf\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ed99ca999a82838b0ac6f71c8671bd7e\AndroidManifest.xml:14:4-17:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:7:10-86
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:7:27-83
+uses-sdk
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:9:5-11:40
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:9:5-11:40
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:9:5-11:40
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\ee1c48057df8304e6727de409fc896cf\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\ee1c48057df8304e6727de409fc896cf\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ed99ca999a82838b0ac6f71c8671bd7e\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ed99ca999a82838b0ac6f71c8671bd7e\AndroidManifest.xml:15:5-42
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:9:5-11:40
+INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:9:5-11:40
+	android:targetSdkVersion
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:11:9-37
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:10:9-34
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:13:5-51:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\ee1c48057df8304e6727de409fc896cf\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.3.aar\ee1c48057df8304e6727de409fc896cf\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ed99ca999a82838b0ac6f71c8671bd7e\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ed99ca999a82838b0ac6f71c8671bd7e\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.mgl.activityCal.MenuActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:19:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.mgl.service.CalendarioActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:27:9-30:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:29:13-62
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:28:13-62
+activity#com.mgl.activityCal.CalendarioActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:31:9-34:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:33:13-62
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:32:13-66
+activity#com.mgl.activityCal.CalConsulActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:37:13-59
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:36:13-65
+activity#com.mgl.activityCal.CalQueryActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:39:9-42:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:40:13-64
+activity#com.example.activityEfemeride.EQueryActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:43:9-46:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:45:13-58
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:44:13-72
+activity#com.example.activityEfemeride.EConsulActivity
+ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from C:\AndroidStudio\Sqlite\app\src\main\AndroidManifest.xml:48:13-73

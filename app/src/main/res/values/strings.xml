@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sqlite</string>
+    <string name="hello_world">EJercicio SQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_calendario">CalendarioActivity</string>
+    <string name="title_activity_muestra">MuestraActivity</string>
+    <string name="title_activity_cal_elimina">CalEliminaActivity</string>
+
+    <string-array name="spinner1">
+        <item>SELECCIONA MES</item>
+        <item>ENERO</item>
+        <item>FEBRERO</item>
+        <item>MARZO</item>
+        <item>ABRIL</item>
+        <item>MAYO</item>
+        <item>JUNIO</item>
+        <item>JULIO</item>
+        <item>AGOSTO</item>
+        <item>SEPTIEMBRE</item>
+        <item>OCTUBRE</item>
+        <item>NOVIEMBRE</item>
+        <item>DICIEMBRE</item>
+    </string-array>
+
+    <string name="title_activity_equery">EQueryActivity</string>
+    <string name="title_activity_econsul">EConsulActivity</string>
+
+</resources>
